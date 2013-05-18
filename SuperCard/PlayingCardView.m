@@ -19,13 +19,11 @@
     return self;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+{    
+    UIBezierPath* roundedRect = [UIBezierPath bezierPathWithRoundedRect: self.bounds cornerRadius: 9.0];
+    [[UIColor whiteColor] setFill];
+    [roundedRect fill];
 }
-*/
 
 @end

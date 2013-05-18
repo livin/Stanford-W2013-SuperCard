@@ -53,6 +53,17 @@
     NSMutableAttributedString* rankAndSuit = [[NSMutableAttributedString alloc] initWithString: cardString attributes: aa];
     CGFloat inset = 5.0;
     [rankAndSuit drawInRect: CGRectMake(inset, inset, rankAndSuit.size.width + inset, rankAndSuit.size.height + inset)];
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSaveGState(context);
+    
+    CGContextTranslateCTM(context, self.bounds.size.width, self.bounds.size.height);
+    CGContextRotateCTM(context, M_PI);
+    
+    [rankAndSuit drawInRect: CGRectMake(inset, inset, rankAndSuit.size.width + inset, rankAndSuit.size.height + inset)];
+    
+    CGContextRestoreGState(context);
 }
 
 @end

@@ -10,4 +10,8 @@
 
 @interface PlayingCardView : UIView
 
+@property (nonatomic) int rank;
+@property (nonatomic, strong) NSString* suit;
+- (NSString*) rankString;
+
 @end

@@ -23,6 +23,7 @@
 		E786792A17481E9A00438CDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E786790517481E9900438CDE /* Foundation.framework */; };
 		E786793217481E9A00438CDE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E786793017481E9A00438CDE /* InfoPlist.strings */; };
 		E786793517481E9A00438CDE /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E786793417481E9A00438CDE /* SuperCardTests.m */; };
+		E786794017481F1A00438CDE /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E786793F17481F1A00438CDE /* PlayingCardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		E786793117481E9A00438CDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E786793317481E9A00438CDE /* SuperCardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCardTests.h; sourceTree = "<group>"; };
 		E786793417481E9A00438CDE /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+		E786793E17481F1A00438CDE /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		E786793F17481F1A00438CDE /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				E786791E17481E9900438CDE /* SuperCardViewController.h */,
 				E786791F17481E9900438CDE /* SuperCardViewController.m */,
 				E786790A17481E9900438CDE /* Supporting Files */,
+				E786793E17481F1A00438CDE /* PlayingCardView.h */,
+				E786793F17481F1A00438CDE /* PlayingCardView.m */,
 			);
 			path = SuperCard;
 			sourceTree = "<group>";
@@ -274,6 +279,7 @@
 				E786791017481E9900438CDE /* main.m in Sources */,
 				E786791417481E9900438CDE /* SuperCardAppDelegate.m in Sources */,
 				E786792017481E9900438CDE /* SuperCardViewController.m in Sources */,
+				E786794017481F1A00438CDE /* PlayingCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
